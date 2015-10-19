@@ -15,4 +15,4 @@ FILES_${PN}-qmlplugins += " \
     ${OE_QMAKE_PATH_QML}/*/*/*.obj \
 "
 
-SRCREV = "ec963e106397d46e5c853e9adb3fbec1b27d9b04"
+SRCREV = "18964d9ebed281a72506eccdf26319ce18be46d7"

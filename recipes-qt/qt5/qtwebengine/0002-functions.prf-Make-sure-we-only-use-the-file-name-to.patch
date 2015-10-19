@@ -1,7 +1,7 @@
-From 7f81bad8fcd00afcf2214285856d46f50f91b55c Mon Sep 17 00:00:00 2001
+From ab284b45d8fa1228bd8b66ee47dc7186becb6a95 Mon Sep 17 00:00:00 2001
 From: Simon Busch <morphis@gravedo.de>
 Date: Tue, 18 Nov 2014 10:38:18 +0100
-Subject: [PATCH 2/4] functions.prf: Make sure we only use the file name to
+Subject: [PATCH 2/3] functions.prf: Make sure we only use the file name to
  generate it's moc'ed abbreviation
 
 Signed-off-by: Simon Busch <morphis@gravedo.de>
@@ -11,10 +11,10 @@ Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/tools/qmake/mkspecs/features/functions.prf b/tools/qmake/mkspecs/features/functions.prf
-index 8287c8f..04bdba5 100644
+index 7505d09..e9362dd 100644
 --- a/tools/qmake/mkspecs/features/functions.prf
 +++ b/tools/qmake/mkspecs/features/functions.prf
-@@ -102,7 +102,8 @@ defineReplace(findIncludedMocFiles) {
+@@ -110,7 +110,8 @@ defineReplace(findIncludedMocFiles) {
  }
  
  defineReplace(mocOutput) {

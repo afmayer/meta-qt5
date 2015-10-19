@@ -1,7 +1,7 @@
-From 8ed228de093947c176cd1d8984a61e3b338bbe66 Mon Sep 17 00:00:00 2001
+From ef265171a5531f626f2aa29dd694b028fe478a37 Mon Sep 17 00:00:00 2001
 From: Khem Raj <raj.khem@gmail.com>
 Date: Mon, 8 Jun 2015 13:59:25 -0700
-Subject: [PATCH 09/10] linux-oe-g++: Invert conditional for defining
+Subject: [PATCH 8/8] linux-oe-g++: Invert conditional for defining
  QT_SOCKLEN_T
 
 This helps to make sure that QT_SOCKLEN_T is defined to be 'int'

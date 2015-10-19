@@ -1,4 +1,4 @@
-From 922931781bd4fd765de996f1709aff95b6ac3fba Mon Sep 17 00:00:00 2001
+From 3209dbfc50632a69f1d0bab880a77527fe1f2473 Mon Sep 17 00:00:00 2001
 From: Martin Jansa <Martin.jansa@gmail.com>
 Date: Wed, 11 Sep 2013 18:30:08 +0200
 Subject: [PATCH 1/4] Allow to build only lrelease + lupdate + lconvert
