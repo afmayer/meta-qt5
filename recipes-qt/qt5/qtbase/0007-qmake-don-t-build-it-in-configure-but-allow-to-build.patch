@@ -66,3 +66,26 @@ index 89d6ea5..0ff4a96 100644
 -- 
 2.6.1
 
+diff --git a/configure b/configure
+index 232b6c4..d7a19b0 100755
+--- a/configure
++++ b/configure
+@@ -3991,7 +3991,7 @@ setBootstrapEvalVariable()
+ 
+ 
+ # build qmake
+-if false; then ###[ '!' -f "$outpath/bin/qmake" ];
++if true; then ###[ '!' -f "$outpath/bin/qmake" ];
+     echo "Creating qmake..."
+ 
+     mkdir -p "$outpath/qmake" || exit
+@@ -4145,7 +4145,8 @@ if false; then ###[ '!' -f "$outpath/bin/qmake" ];
+             fi
+         fi
+     done
+-
++fi
++if false; then ###[ '!' -f "$outpath/bin/qmake" ];
+     if [ "$OPT_VERBOSE" = yes ]; then
+         # Show the output of make
+         (cd "$outpath/qmake"; "$MAKE") || exit 2
